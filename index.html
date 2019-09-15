@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Snake.css">
+    <title></title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="scoreDiv">
+            Score: <span id="score"></span>
+        </div>
+        <div>
+            Highscore: <span id="highscore"></span>
+        </div>
+    </div>
+    <div class="platform" id="gamePlatform">
+        <div id="snake">
+            <span id="snakeHead"></span>
+        </div>
+    </div>
+    <div class="platform" id="startPlatform">
+        <div id="startButton">
+            Start
+        </div>
+        <div class="quitButton">
+            Quit
+        </div>
+    </div>
+    <div class="platform" id="lostPlatform">
+        <span id="lostText">You lost</span>
+        <div id="startAgainButton">
+            Play again
+        </div>
+        <div class="quitButton">
+            Quit
+        </div>
+    </div>
+    <script type="text/javascript" src="Snake.js"></script>
+</body>
+
+</html>

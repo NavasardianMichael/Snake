@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.platform {
+    width: 500px;
+    height: 498px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#header {
+    width: 500px;
+    height: 39px;
+    border: 1px solid black;
+    border-bottom: 0;
+    margin: 0 auto;
+    background: #D4AC0D;
+}
+
+#snake {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#snake span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 9px;
+}
+
+#snakeHead {
+    width: 9px;
+    height: 9px;
+    background: black;
+    margin: 1px;
+    position: absolute;
+}
+
+.food {
+    width: 9px;
+    height: 9px;
+    margin: 1px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#startPlatform,
+#lostPlatform,
+#gamePlatform {
+    background: #F1C40F;
+}
+
+#startButton,
+.quitButton,
+#startAgainButton {
+    background: #76D7C4;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 100px;
+    margin-top: 20%;
+}
+
+.quitButton {
+    margin-top: 20px;
+    background: #EC7063;
+}
+
+#gamePlatform,
+#lostPlatform {
+    display: none;
+}
+
+#lostText {
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    position: relative;
+    top: 40px;
+    left: -50px;
+    font-size: 30px;
+}
+
+.quitButton:hover {
+    background: #E74C3C
+}
+
+#startButton:hover {
+    background: #1ABC9C
+}
+
+.shown {
+    display: inline;
+}
